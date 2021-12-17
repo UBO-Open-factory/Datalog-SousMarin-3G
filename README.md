@@ -1,7 +1,22 @@
 # Datalog-SousMarin-3G
 <H1>Data logger sous marin a transmission de compte rendu par 3G</H1>
 
+Ce montage électronique se greffe sur un système existant qui réalise des mesures quelconques et les enregistre sur une carte SD.<br><br>
+L'apport de ce système est de :<br>
+<ul>
+<li>regrouper les données dans des fichiers séquentiels paramétrables</li>
+<li>envoyer ces fichiers en FTP (3G) vers un centre de données</li>
+</ul>
 
+Il permet l'exploitation des données dans un délais beaucoup plus court que celui nécessaire à le récupération des informations stockées sur la carte SD.<br><br>
+
+
+<H2>Système existant / Apport </H2>
+Le système présenté ci-dessous est un système quelconque dont seul le synoptique est présenté afin de comprendre les modifications à y apporter pour greffer le logger.<br><br>
+<H3>Système initial avant adjoction du transmetteur 3G</h3>
+<IMG src="readme_fichiers/systeme_avant_modification.png">
+<H3>Système après adjonction du transmetteur 3G</h3>
+<IMG src="readme_fichiers/systeme_apres_modification.png">
 
 
 <H2>Répartition des mesures dans les fichiers de sauvegarde </H2>
