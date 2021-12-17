@@ -1,0 +1,37 @@
+;
+;FICHIER D’INITIALISATION D’UN LOGGER
+;
+;-------------------------------------
+; Paramètres du logger
+;
+id_logger=oso_01        ;nom du logger
+
+;-------------------------------------
+;Paramètres des capteurs
+;
+
+;intervalle entre deux séries de mesures en minutes
+; ATTENTION : doit ménager un délais suffisant pour permettre l'émission d'un fichier conséquent (10 minutes mini)
+intervale_entre_mesures=1
+
+;-------------------------------------
+;Paramètres de la transmission
+;
+; carte SIM
+gsm_code_pin=1234
+
+; serveur
+serveur_adresse=193.54.246.32
+serveur_port=1971
+serveur_user=TOCIO;
+serveur_pwd=T()ci()_2021
+
+
+;-------------------------------------
+;Paramètres des fichiers
+;heure d'envoi
+; liste d'heures auxquelles les fichiers seront envoyés
+; les heures sont comprises entre [0 et 23]
+; il doit y en avoir au moins une
+; elles doivent se suivre dans l'ordre croissant
+heure_des_envois=8,10,11,12,13,14,15,16,17,19,23
