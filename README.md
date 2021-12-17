@@ -10,7 +10,7 @@ Ces périodes sont programmabele via la variable "" du fichier de configuration 
 Le graphique ci-dessous donne la répartition des fichiers sur 2 journées consécutives avec une scission des données à 12h, 15h et 20h (soit 3 fichiers différents au lieu du fichier journalier).<br><br>
 Dans un souci d’organisation et de planification d’écriture des données, un fichier est ouvert au début d’une période et clôt à l'issue de cette période.<br><br>
 Exemple : le fichier fic_25_15 est considéré ouvert à 15h le 25 et clos avant 20h le 25. <br><br>
-<IMG src="readme_fichiers/regle_d_enregistrement_des_donnees.png.png">
+<IMG src="readme_fichiers/regle_d_enregistrement_des_donnees.png">
 
 
 <H2>Développement d’un outil de décision pour sécuriser l'envoi des données.</H2>
@@ -28,7 +28,7 @@ L’outil de décision obéit à plusieurs règles pour envoyer un fichier. Pour
 Exemple : si à 20h le fichier de 12h n’a pas pu être envoyé, l’outil de décision ne fera pas de tentative d’envoi. Ainsi, seul le fichier de 15h pourra être envoyé<br><br>
 
 Le graphique ci-dessous illustre les différentes règles auxquelles obéit l’outil de décision : <br><br>
-<IMG src="readme_fichiers/regle_de_transmission_des_fichiers.png.png">
+<IMG src="readme_fichiers/regle_de_transmission_des_fichiers.png">
 
 
 <H2>Envoi du fichier</H2>
