@@ -58,18 +58,25 @@ Lorsqu’un fichier doit être envoyé (à la fin de chaque phase bleue ci-dessu
 </ul>
 
 <H2>Algorithme</H2>
-
+Les algorithmes suivants sont disponibles au format PDF.<br><br>
 <ul>
 	<li><a href="production/Programmation/V1/algorithmes/V1.0_ stable emission avec simulation de mesures.pdf" target="_blank">V1.0_ stable emission avec simulation de mesures</a></li>
 	<ul>
-		<li>Titre</li>
+		<li>Simulation des mesures (pas d'algorithme disponible)</li>
+		<li><a href="production/Programmation/V1/algorithmes/Gestion de l'envoi des données.pdf" target="_blank">Gestion de l'envoi des données</a></li>
+		<ul>
+			<li><a href="production/Programmation/V1/algorithmes/Heure des envois.pdf" target="_blank">Détermine si il est l'heure d'envoyer un fichier</a></li>
+			<li><a href="production/Programmation/V1/algorithmes/Determine le fichier à envoyer.pdf" target="_blank">Détermine le fichier à envoyer</a></li>
+			<li><a href="production/Programmation/V1/algorithmes/Envoi le fichier en FTP.pdf" target="_blank">Envoi du fichier en FTP (si nécessaire)</a></li>
+			<ul>
+				<li><a href="production/Programmation/V1/algorithmes/Initialisation GSM.pdf" target="_blank">Initialise les liaisons avec le GSM</a></li>
+				<li><a href="production/Programmation/V1/algorithmes/Mise sous tension GSM.pdf" target="_blank">Mise sous tension du GSM</a></li>
+				<li><a href="production/Programmation/V1/algorithmes/Configuration GSM.pdf" target="_blank">Configure le GSM</a></li>
+				<li><a href="production/Programmation/V1/algorithmes/Configuration FTP.pdf" target="_blank">Configure la liaison FTP</a></li>
+				<li><a href="production/Programmation/V1/algorithmes/Envoi des données.pdf" target="_blank">Envoi les données du fichier</a></li>
+			</ul>
+		</ul>
 	</ul>
-
-
-
 </ul>
-
-
-
 
 <br><br><br><br><br>
